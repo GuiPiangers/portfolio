@@ -1,0 +1,15 @@
+.hero-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+    font-weight: 600;
+    text-decoration: none;
+    color: #1c1c1c;
+    transition: 0.3s;
+}
+
+.hero-link:hover{
+    color: #6100DD;
+}

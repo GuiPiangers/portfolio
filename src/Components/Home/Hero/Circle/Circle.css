@@ -12,8 +12,12 @@
     border-radius: 50%;
     top: var(--initial-posiotion-y);
     left: var(--initial-posiotion-x);
-    transition: 0.3s;
+    transition: 0.4s;
     z-index: -2;
+}
+
+.circle__icon{
+    background-color: transparent !important;
 }
 
 

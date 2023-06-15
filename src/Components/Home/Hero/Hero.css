@@ -4,6 +4,11 @@
     color: #6100DD;
 }
 
+.hero__links-container{
+    display: flex;
+    gap: 20px;
+}
+
 .hero__img-container{
     position: relative;
     display: flex;
@@ -23,13 +28,13 @@
 
 .img__circle{
     position: absolute;
-    bottom: 60px;
+    bottom: 52px;
     height: 409px;
     width: 409px;
     border-radius: 50%;
     background-color: #1c1c1c;
     z-index: -1;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .img__name{
@@ -40,6 +45,6 @@
     border-radius: 30px;
     background-color: #1c1c1c;
     color: #fff ;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 

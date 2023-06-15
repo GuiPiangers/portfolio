@@ -2,7 +2,9 @@ import './Hero.css'
 import BoxContainer from '../../Templates/BoxContainer/BoxContainer'
 import guiImg from '../../../assets/img/gui-1.png'
 import Circle from './Circle/Circle'
-import { FaReact } from 'react-icons/fa'
+import HeroLink from './HeroLink/HeroLink'
+
+import { FaReact, FaGithub, FaLinkedin, FaFileAlt } from 'react-icons/fa'
 import { DiJavascript1 } from 'react-icons/di'
 
 export default function Hero(){
@@ -15,7 +17,15 @@ export default function Hero(){
                         Desenvolvedor <br/>
                         Front-End
                     </h1>
+
+                    <div className='hero__links-container'>
+                        <HeroLink name='Git-Hub' url='/' icon={<FaGithub size={32}/>}/>
+                        <HeroLink name='Linked In' url='/' icon={<FaLinkedin size={32}/>}/>
+                        <HeroLink name='Curriculo' url='/' icon={<FaFileAlt size={32}/>}/>
+                    </div>
                 </div>
+
+
                 <div className="hero__img-container">
                     <svg className='mask' width="409" height="526" viewBox="0 0 409 526" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <clipPath id='svg-mask'>
