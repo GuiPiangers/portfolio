@@ -1,0 +1,25 @@
+.circle{
+    --initial-posiotion-x: 0px;
+    --initial-posiotion-y: 0px;
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1c1c;
+    height: 88px;
+    width: 88px;
+    border-radius: 50%;
+    top: var(--initial-posiotion-y);
+    left: var(--initial-posiotion-x);
+    transition: 0.3s;
+    z-index: -2;
+}
+
+
+.hero__img-container:hover .circle{
+    --final-posiotion-x: 0px;
+    --final-posiotion-y: 0px;
+    top: var(--final-posiotion-y);
+    left: var(--final-posiotion-x);
+}

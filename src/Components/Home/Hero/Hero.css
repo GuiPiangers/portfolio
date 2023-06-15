@@ -1,0 +1,45 @@
+.hero__title{
+    margin: 8px 0px 16px 0px;
+    font-size: 56px;
+    color: #6100DD;
+}
+
+.hero__img-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__img-container:hover *{
+    background-color: #6100DD;
+}
+
+.hero__img{
+    width: 409px;
+    clip-path: url(#svg-mask);
+    background-color: transparent !important;
+}
+
+.img__circle{
+    position: absolute;
+    bottom: 60px;
+    height: 409px;
+    width: 409px;
+    border-radius: 50%;
+    background-color: #1c1c1c;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.img__name{
+    position: absolute;
+    bottom: -8px;
+    width: max-content;
+    padding: 8px 24px;
+    border-radius: 30px;
+    background-color: #1c1c1c;
+    color: #fff ;
+    transition: 0.3s;
+}
+
