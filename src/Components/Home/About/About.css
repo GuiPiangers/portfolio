@@ -9,7 +9,26 @@
     line-height: 20px;
 }
 
+.about__img-container{
+    height: 440px;
+    width: 100%;
+    max-width: 300px;
+    object-fit: cover;
+}
+
 .about__img{
-    height: 480px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 30px;
+}
+
+@media screen and (max-width: 780px) {
+    .flex-row{
+        flex-direction: column;
+    }
+    .about__img-container{
+        margin-top: 16px;
+        height:360px
+    }
 }

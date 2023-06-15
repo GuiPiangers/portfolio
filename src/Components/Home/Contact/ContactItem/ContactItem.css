@@ -1,0 +1,23 @@
+.contact-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 36px 8px 12px;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-item:hover{
+    border: 1px solid #6100DD;
+    color: #6100DD;
+}
+
+.contact-item__contact{
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}

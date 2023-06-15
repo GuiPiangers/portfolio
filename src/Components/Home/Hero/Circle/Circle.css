@@ -27,3 +27,10 @@
     top: var(--final-posiotion-y);
     left: var(--final-posiotion-x);
 }
+
+@media screen and (max-width: 1080px) {
+    .circle{
+        height: 64px;
+        width: 64px;
+    }
+}
