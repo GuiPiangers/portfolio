@@ -1,0 +1,15 @@
+.home-navigation__list{
+    display: flex;
+    list-style: none;
+}
+
+.home-navigation__link{
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.home-navigation__link:hover{
+    background-color:#2F2F2F ;
+}

@@ -16,7 +16,7 @@ export default function Footer(){
                     </div>
                 </div>
                 <div className='footer__container'>
-                    <h2 className='footer__title'>Contatos</h2>
+                    <h2 className='footer__title'>Contato</h2>
                     <div className='footer__item'>
                         <p>(51) 9 8035-1927</p>
                     </div>

@@ -9,7 +9,7 @@ export default function Contact(){
     return(
         <section className='contact'>
             <BoxContainer className={'flex-column-center'}>
-                <Title>Contatos</Title>
+                <Title>Contato</Title>
                 <div className="contact-container">
                     <ContactItem contact='(51) 9 8035-1927' icon={<FaWhatsapp size={24}/>}/>
                     <ContactItem contact='eduardomartinspiangers@gmail.com' icon={<SiGmail size={22}/>}/>
