@@ -7,7 +7,7 @@ import { SiGmail } from 'react-icons/si'
 
 export default function Contact(){
     return(
-        <section className='contact'>
+        <section className='contact' id='contact'>
             <BoxContainer className={'flex-column-center'}>
                 <Title>Contato</Title>
                 <div className="contact-container">

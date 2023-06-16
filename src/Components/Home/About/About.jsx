@@ -5,8 +5,8 @@ import Title from "../../Usual/Title/Title";
 
 export default function About(){
     return(
-        <section className="about">
-            <BoxContainer className={'flex-row'}>
+        <section className="about" id="about">
+            <BoxContainer className={'flex-row align-center'}>
                 <div className="about__texts">
                     <Title>Sobre mim</Title>
                     <p> Meu primeiro contato com a área de programação foi através de um curso de desenvolvimento de sistemas.

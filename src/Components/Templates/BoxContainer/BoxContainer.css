@@ -22,5 +22,16 @@
     display: flex;
     gap: 20px;
     justify-content: space-between;
+}
+
+.align-center{
     align-items: center;
+}
+
+
+@media screen and (max-width: 780px) {
+    .flex-row{
+        flex-direction: column;
+        align-items: center;
+    }
 }

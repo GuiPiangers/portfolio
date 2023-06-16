@@ -1,10 +1,12 @@
 import './Footer.css'
 import BoxContainer from '../Templates/BoxContainer/BoxContainer'
+import Logo from '../Usual/Logo/Logo'
 
 export default function Footer(){
     return(
         <footer className="footer">
             <h2 className='footer__logo'>Home</h2>
+            <Logo themeColor='white'/>
             <BoxContainer className='flex-row'>
                 <div className='footer__container'>
                     <h2 className='footer__title'>Projetos</h2>

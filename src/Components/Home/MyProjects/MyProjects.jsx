@@ -6,7 +6,7 @@ import ProjectImg1 from '../../../assets/img/barberProject-img.png'
 
 export default function MyProjects(){
     return(
-        <section className="my-projects">
+        <section className="my-projects" id='projects'>
             <BoxContainer>
                 <Title>Meus projetos</Title>
                 <div className='projects-container'>

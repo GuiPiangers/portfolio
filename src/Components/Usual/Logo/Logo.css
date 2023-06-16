@@ -1,0 +1,7 @@
+.logo{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+}

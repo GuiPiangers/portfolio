@@ -1,6 +1,9 @@
 .footer{
     background-color: #1c1c1c;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer__container{
@@ -20,6 +23,7 @@
     padding-top: 52px;
     font-weight: 500;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .footer__container{
