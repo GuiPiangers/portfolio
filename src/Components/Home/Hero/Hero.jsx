@@ -55,7 +55,7 @@ export default function Hero(){
 
     return(
         <section className='hero' id='home'>
-            <BoxContainer>
+            <BoxContainer className='margin-elements'>
                 <div className='grid'>
                     <div className="hero__texts">
                         <p className='hero__text'>Olá, eu sou <strong>Guilherme</strong></p>

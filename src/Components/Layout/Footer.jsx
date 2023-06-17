@@ -7,7 +7,7 @@ export default function Footer(){
         <footer className="footer">
             <h2 className='footer__logo'>Home</h2>
             <Logo themeColor='white'/>
-            <BoxContainer className='flex-row'>
+            <BoxContainer className='flex-row margin-elements'>
                 <div className='footer__container'>
                     <h2 className='footer__title'>Projetos</h2>
                     <div className='footer__item'>

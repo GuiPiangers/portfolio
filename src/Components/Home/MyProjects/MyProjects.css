@@ -1,15 +1,6 @@
 .projects-container{
-    margin-top: 24px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 32px;
-}
-
-@media screen and (max-width: 780px) {
-    .projects-container{
-
-        grid-template-columns: 1fr;
-        justify-items: center;
-
-    }
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    margin-top: 52px;
 }

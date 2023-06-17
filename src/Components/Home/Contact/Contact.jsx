@@ -8,7 +8,7 @@ import { SiGmail } from 'react-icons/si'
 export default function Contact(){
     return(
         <section className='contact' id='contact'>
-            <BoxContainer className={'flex-column-center'}>
+            <BoxContainer className={'flex-column-center margin-elements'}>
                 <Title>Contato</Title>
                 <div className="contact-container">
                     <ContactItem contact='(51) 9 8035-1927' icon={<FaWhatsapp size={24}/>}/>

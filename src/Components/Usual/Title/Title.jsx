@@ -1,7 +1,7 @@
 import './Title.css'
 
-export default function Title({children, ...props}){
+export default function Title({children, className, ...props}){
     return(
-        <h2 className='title' {...props}>{children}</h2>
+        <h2 className={`title ${className}`} {...props}>{children}</h2>
     )
 }
