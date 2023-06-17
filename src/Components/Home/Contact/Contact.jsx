@@ -11,8 +11,16 @@ export default function Contact(){
             <BoxContainer className={'flex-column-center margin-elements'}>
                 <Title>Contato</Title>
                 <div className="contact-container">
-                    <ContactItem contact='(51) 9 8035-1927' icon={<FaWhatsapp size={24}/>}/>
-                    <ContactItem contact='eduardomartinspiangers@gmail.com' icon={<SiGmail size={22}/>}/>
+                    <ContactItem 
+                        contact='(51) 9 8035-1927' 
+                        icon={<FaWhatsapp size={24}/>}
+                        url='https://api.whatsapp.com/send/?phone=5551980351927'
+                    />
+                    <ContactItem 
+                        contact='eduardomartinspiangers@gmail.com' 
+                        icon={<SiGmail size={22}/>}
+                        url='mailto:eduardomartinspiangers@gmail.com'
+                    />
                     <ContactItem contact='gui-piangers' icon={<FaLinkedin size={22}/>}/>
                 </div>
             </BoxContainer>

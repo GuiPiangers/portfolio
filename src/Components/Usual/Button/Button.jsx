@@ -1,9 +1,22 @@
 import './Button.css'
 
-export default function Button({children, className, ...props}){
+export default function Button({ className, children, link, ...props}){
     return(
-        <button className={`button ${className}`} {...props}>
-            {children}
-        </button>
+        link?.length > 0 ?(
+            <a 
+                className={`button ${className}`}
+                {...props}
+                href={link}
+            >
+                {children}
+            </a>
+        ) : (
+            <button 
+                {...props}
+                className={`button ${className}`} 
+            >
+                {children}
+            </button>
+        )
     )
 }

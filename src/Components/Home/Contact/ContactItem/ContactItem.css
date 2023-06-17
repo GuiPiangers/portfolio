@@ -3,10 +3,12 @@
     align-items: center;
     gap: 20px;
     padding: 8px 36px 8px 12px;
-    border: 1px solid black;
+    border: 1px solid #1c1c1c;
+    color: #1c1c1c;
     width: 100%;
     max-width: 400px;
     border-radius: 8px;
+    text-decoration: none;
     cursor: pointer;
     transition: 0.3s;
 }

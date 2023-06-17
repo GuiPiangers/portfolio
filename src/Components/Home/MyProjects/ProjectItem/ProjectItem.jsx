@@ -4,7 +4,7 @@ import { DiJavascript1 } from 'react-icons/di'
 import Icon from '../Icon/Icon'
 import Button from '../../../Usual/Button/Button'
 
-export default function ProjectItem({img, className, title, description, technologies = []}){
+export default function ProjectItem({img, className, title, description, projectLink, repositoryLink, technologies = []}){
 
     const technologiesIcons = {
         react: <Icon key='react' icon={<FaReact key='react' size={28}/>} name='React'/>,
@@ -31,8 +31,20 @@ export default function ProjectItem({img, className, title, description, technol
             </div>
 
             <div className='button-container'>
-                <Button className='button--small button--primary'>Ver projeto</Button>
-                <Button className='button--small button--secondary'>Repositório</Button>
+                <Button 
+                    className='button--small button--primary'
+                    link={projectLink}
+                    target="_blank"
+                >
+                    Ver projeto
+                </Button>
+                <Button 
+                    className='button--small button--secondary'
+                    link={repositoryLink}
+                    target="_blank"
+                >
+                    Repositório
+                </Button>
             </div>
         </div>
     </div>

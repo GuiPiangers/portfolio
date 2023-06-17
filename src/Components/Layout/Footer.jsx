@@ -1,6 +1,9 @@
 import './Footer.css'
 import BoxContainer from '../Templates/BoxContainer/BoxContainer'
 import Logo from '../Usual/Logo/Logo'
+import FooterItem from './FooterItem'
+import { FaWhatsapp, FaLinkedin } from 'react-icons/fa'
+import { SiGmail } from 'react-icons/si'
 
 export default function Footer(){
     return(
@@ -10,24 +13,27 @@ export default function Footer(){
             <BoxContainer className='flex-row margin-elements'>
                 <div className='footer__container'>
                     <h2 className='footer__title'>Projetos</h2>
-                    <div className='footer__item'>
-                        <p>Sistema de Barbearia</p>
-                    </div>
-                    <div className='footer__item'>
-                        <p>ToDo List</p>
-                    </div>
+                    <FooterItem url='https://github.com/GuiPiangers/barberProject/tree/main'>
+                        BarberStyle
+                    </FooterItem>
+                    <FooterItem url='https://api.whatsapp.com/send/?phone=5551980351927'>
+                        ToDo List
+                    </FooterItem>
                 </div>
                 <div className='footer__container'>
                     <h2 className='footer__title'>Contato</h2>
-                    <div className='footer__item'>
-                        <p>(51) 9 8035-1927</p>
-                    </div>
-                    <div className='footer__item'>
-                        <p>eduardomartinspiangers@gmail.com</p>
-                    </div>
-                    <div className='footer__item'>
-                        <p>gui-piangers</p>
-                    </div>
+
+                    <FooterItem url='https://api.whatsapp.com/send/?phone=5551980351927'>
+                        <FaWhatsapp size={16}/> (51) 9 8035-1927
+                    </FooterItem>
+
+                    <FooterItem url='mailto:eduardomartinspiangers@gmail.com'>
+                        <SiGmail size={15}/> eduardomartinspiangers@gmail.com
+                    </FooterItem>
+
+                    <FooterItem url='https://api.whatsapp.com/send/?phone=5551980351927'>
+                        <FaLinkedin size={15}/> gui-piangers
+                    </FooterItem>
                 </div>
             </BoxContainer>
         </footer>

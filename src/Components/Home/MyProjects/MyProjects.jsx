@@ -12,14 +12,16 @@ export default function MyProjects(){
                 <div className='projects-container'>
                     <ProjectItem 
                         img={ProjectImg1}
-                        title='Barbearia - Sistema de agendamento'
+                        title='BarberStyle'
+                        projectLink='https://barber-project-e7916.web.app'
+                        repositoryLink='https://github.com/GuiPiangers/barberProject/tree/main'
                         description='Sistema de agendamento completo para barbearia. Com página de venda, sistema de login, sistema de agendamento e painel de controle. Criado com React JS, utilizando Firestore Database como banco de dados.'
                         technologies={['react', 'css']}
                     />
                     <ProjectItem 
                         className='project-item--reverse'
                         img={ProjectImg1}
-                        title='Barbearia - Sistema de agendamento'
+                        title='ToDo List'
                         description='Projeto com Landing Page e sistema de agendamento para barbearia. Criado com React JS e utilizando firebase como ...'
                         technologies={['javascript', 'css', 'html']}
                     />
