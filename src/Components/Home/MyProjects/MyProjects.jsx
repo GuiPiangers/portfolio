@@ -22,6 +22,8 @@ export default function MyProjects(){
                         className='project-item--reverse'
                         img={ProjectImg1}
                         title='ToDo List'
+                        repositoryLink='https://github.com/GuiPiangers/ToDo-List'
+                        projectLink='https://to-do-list-eight-liard.vercel.app'
                         description='Projeto com Landing Page e sistema de agendamento para barbearia. Criado com React JS e utilizando firebase como ...'
                         technologies={['javascript', 'css', 'html']}
                     />
