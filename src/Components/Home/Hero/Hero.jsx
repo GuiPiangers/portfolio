@@ -65,9 +65,8 @@ export default function Hero(){
                         </h1>
                     </div>
                         <div className='hero__links-container'>
-                            <HeroLink name='Git-Hub' url='/' icon={<FaGithub size={32}/>}/>
+                            <HeroLink name='Git-Hub' url='https://github.com/GuiPiangers' icon={<FaGithub size={32}/>}/>
                             <HeroLink name='Linked In' url='https://www.linkedin.com/in/guilherme-piangers-431a1a27b/' icon={<FaLinkedin size={32}/>}/>
-                            <HeroLink name='Curriculo' url='/' icon={<FaFileAlt size={32}/>}/>
                         </div>
 
                     <div className="hero__img-container">
