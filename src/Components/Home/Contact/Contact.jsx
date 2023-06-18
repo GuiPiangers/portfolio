@@ -17,11 +17,11 @@ export default function Contact(){
                         url='https://api.whatsapp.com/send/?phone=5551980351927'
                     />
                     <ContactItem 
-                        contact='eduardomartinspiangers@gmail.com' 
+                        contact='piangersguilherme@gmail.com' 
                         icon={<SiGmail size={22}/>}
-                        url='mailto:eduardomartinspiangers@gmail.com'
+                        url='mailto:piangersguilherme@gmail.com'
                     />
-                    <ContactItem contact='gui-piangers' icon={<FaLinkedin size={22}/>}/>
+                    <ContactItem contact='gui-piangers' url='https://www.linkedin.com/in/guilherme-piangers-431a1a27b/' icon={<FaLinkedin size={22}/>}/>
                 </div>
             </BoxContainer>
         </section>

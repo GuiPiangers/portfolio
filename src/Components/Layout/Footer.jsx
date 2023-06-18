@@ -27,11 +27,11 @@ export default function Footer(){
                         <FaWhatsapp size={16}/> (51) 9 8035-1927
                     </FooterItem>
 
-                    <FooterItem url='mailto:eduardomartinspiangers@gmail.com'>
-                        <SiGmail size={15}/> eduardomartinspiangers@gmail.com
+                    <FooterItem url='mailto:piangersguilherme@gmail.com'>
+                        <SiGmail size={15}/> piangersguilherme@gmail.com
                     </FooterItem>
 
-                    <FooterItem url='https://api.whatsapp.com/send/?phone=5551980351927'>
+                    <FooterItem url='https://www.linkedin.com/in/guilherme-piangers-431a1a27b/'>
                         <FaLinkedin size={15}/> gui-piangers
                     </FooterItem>
                 </div>
