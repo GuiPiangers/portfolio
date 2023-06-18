@@ -3,6 +3,7 @@ import BoxContainer from '../../Templates/BoxContainer/BoxContainer'
 import Title from '../../Usual/Title/Title'
 import ProjectItem from './ProjectItem/ProjectItem'
 import ProjectImg1 from '../../../assets/img/barberProject.png'
+import bitcentImg from '../../../assets/img/bitcent.png'
 
 export default function MyProjects(){
     return(
@@ -20,12 +21,12 @@ export default function MyProjects(){
                     />
                     <ProjectItem 
                         className='project-item--reverse'
-                        img={ProjectImg1}
-                        title='ToDo List'
-                        repositoryLink='https://github.com/GuiPiangers/ToDo-List'
-                        projectLink='https://to-do-list-eight-liard.vercel.app'
-                        description='Projeto com Landing Page e sistema de agendamento para barbearia. Criado com React JS e utilizando firebase como ...'
-                        technologies={['javascript', 'css', 'html']}
+                        img={bitcentImg}
+                        title='BitCent'
+                        repositoryLink='https://github.com/GuiPiangers/bitcent/tree/main'
+                        projectLink='https://bitcent-eight.vercel.app'
+                        description='Projeto de gestão financeira criado a partir do evento Transformação Dev. Contém sistema de Login, registro de ganhos e despesas e Landing Page.'
+                        technologies={['nextjs', 'typescript', 'tailwind']}
                     />
                 </div>
 

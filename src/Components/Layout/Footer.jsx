@@ -16,8 +16,8 @@ export default function Footer(){
                     <FooterItem url='https://github.com/GuiPiangers/barberProject/tree/main'>
                         BarberStyle
                     </FooterItem>
-                    <FooterItem url='https://api.whatsapp.com/send/?phone=5551980351927'>
-                        ToDo List
+                    <FooterItem url='https://github.com/GuiPiangers/bitcent/tree/main'>
+                        BitCent
                     </FooterItem>
                 </div>
                 <div className='footer__container'>

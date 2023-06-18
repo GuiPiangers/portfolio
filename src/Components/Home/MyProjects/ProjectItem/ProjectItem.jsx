@@ -1,16 +1,20 @@
 import './ProjectItem.css'
 import { FaReact, FaHtml5, FaCss3Alt } from 'react-icons/fa'
-import { DiJavascript1 } from 'react-icons/di'
+import {TbBrandNextjs} from 'react-icons/tb'
+import { SiTypescript, SiJavascript, SiTailwindcss } from 'react-icons/si'
 import Icon from '../Icon/Icon'
 import Button from '../../../Usual/Button/Button'
 
 export default function ProjectItem({img, className, title, description, projectLink, repositoryLink, technologies = []}){
 
     const technologiesIcons = {
-        react: <Icon key='react' icon={<FaReact key='react' size={28}/>} name='React'/>,
-        javascript: <Icon key='javascript' icon={<DiJavascript1 key='javascript' size={28}/>} name='JavaScript'/>,
-        html: <Icon key='html' icon={<FaHtml5 key='javascript' size={28}/>} name='HTML'/>,
-        css: <Icon key='css' icon={<FaCss3Alt key='javascript' size={28}/>} name='CSS'/>,
+        react: <Icon key='react' icon={<FaReact size={28}/>} name='React'/>,
+        javascript: <Icon key='javascript' icon={<SiJavascript size={28}/>} name='JavaScript'/>,
+        html: <Icon key='html' icon={<FaHtml5 size={28}/>} name='HTML'/>,
+        css: <Icon key='css' icon={<FaCss3Alt size={28}/>} name='CSS'/>,
+        nextjs: <Icon key='next' icon={<TbBrandNextjs size={28}/>} name='Next Js'/>,
+        tailwind: <Icon key='tailwind' icon={<SiTailwindcss size={28}/>} name='Tailwind CSS'/>,
+        typescript: <Icon key='typescript' icon={<SiTypescript size={28}/>} name='Typescript'/>
     }
 
     const renderTechnologies = ()=>{
