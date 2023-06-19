@@ -32,7 +32,7 @@ export default function Footer(){
                     </FooterItem>
 
                     <FooterItem url='https://www.linkedin.com/in/guilherme-piangers-431a1a27b/'>
-                        <FaLinkedin size={15}/> gui-piangers
+                        <FaLinkedin size={15}/> guilherme-piangers
                     </FooterItem>
                 </div>
             </BoxContainer>
