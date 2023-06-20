@@ -41,8 +41,8 @@
     display: flex;
     align-items: center;
     gap: 8px;
-
 }
+
 .footer__item:hover{
     background-color: #2f2f2f;
 }

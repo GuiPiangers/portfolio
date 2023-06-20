@@ -1,9 +1,10 @@
 import './HomeNavigation.css'
 import { useEffect, useState } from 'react'
 import HomeNavigationItem from './HomeNavigationItem'
+import { useTranslation } from 'react-i18next'
 
 export default function HomeNavigation(){
-
+    const { t } = useTranslation()
     const [borderPosition, setBorderPosition] = useState(0)
     const [borderWidth, setBorderWidth] = useState(0)
 
@@ -55,12 +56,12 @@ export default function HomeNavigation(){
 
     return(
         <nav className='home-navigation'>
-                <div className="animation-border" style={{left: borderPosition, width: borderWidth}}></div>
+            <div className="animation-border" style={{left: borderPosition, width: borderWidth}}></div>
             <ul className='home-navigation__list'>
                 <HomeNavigationItem name="Home" url='#home'/>
-                <HomeNavigationItem name='Sobre mim' url='#about'/>
-                <HomeNavigationItem name='Projetos' url='#projects'/>
-                <HomeNavigationItem name='Contato' url='#contact'/>
+                <HomeNavigationItem name={t("headerAbout")} url='#about'/>
+                <HomeNavigationItem name={t("headerProjects")} url='#projects'/>
+                <HomeNavigationItem name={t("headerContact")} url='#contact'/>
             </ul>
         </nav>
     )

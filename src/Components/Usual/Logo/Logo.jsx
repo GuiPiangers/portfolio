@@ -10,7 +10,7 @@ export default function Logo({size = 24, themeColor}){
                 alt="logo"
                 style={{height: size, width: size,}}
             />
-            Gui Piangers
+            <p className='logo__name'>Gui Piangers</p>
         </a>
     )
 }
