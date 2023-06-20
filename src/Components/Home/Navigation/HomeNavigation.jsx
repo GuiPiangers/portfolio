@@ -26,7 +26,7 @@ export default function HomeNavigation(){
     
     function handleSetCurrentSection(entries){
         Array.from(entries).forEach((entry) =>{
-            if(entry.isIntersecting && entry.intersectionRatio >= 0.7){
+            if(entry.isIntersecting){
             const href = entry.target.getAttribute('id')            
             const navMenuLinks = document.querySelectorAll(`.home-navigation__list a[href^="#"]`)
             const navMenuLinkActive = document.querySelector(`.home-navigation__list a[href^="#${href}"]`)
@@ -59,9 +59,9 @@ export default function HomeNavigation(){
             <div className="animation-border" style={{left: borderPosition, width: borderWidth}}></div>
             <ul className='home-navigation__list'>
                 <HomeNavigationItem name="Home" url='#home'/>
-                <HomeNavigationItem name={t("headerAbout")} url='#about'/>
-                <HomeNavigationItem name={t("headerProjects")} url='#projects'/>
-                <HomeNavigationItem name={t("headerContact")} url='#contact'/>
+                <HomeNavigationItem name={t("aboutTitle")} url='#about'/>
+                <HomeNavigationItem name={t("projectsTitle")} url='#projects'/>
+                <HomeNavigationItem name={t("contactTitle")} url='#contact'/>
             </ul>
         </nav>
     )

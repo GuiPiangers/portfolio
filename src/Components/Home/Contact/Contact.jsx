@@ -4,12 +4,16 @@ import Title from '../../Usual/Title/Title'
 import ContactItem from './ContactItem/ContactItem'
 import { FaWhatsapp, FaLinkedin } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
+import { useTranslation } from "react-i18next"
 
 export default function Contact(){
+
+    const { t } = useTranslation()
+
     return(
         <section className='contact' id='contact'>
             <BoxContainer className={'flex-column-center margin-elements'}>
-                <Title>Contato</Title>
+                <Title>{t("contactTitle")}</Title>
                 <div className="contact-container">
                     <ContactItem 
                         contact='(51) 9 8035-1927' 

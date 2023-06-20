@@ -4,15 +4,19 @@ import Logo from '../Usual/Logo/Logo'
 import FooterItem from './FooterItem'
 import { FaWhatsapp, FaLinkedin } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
+import { useTranslation } from 'react-i18next'
 
 export default function Footer(){
+
+    const { t } = useTranslation()
+
     return(
         <footer className="footer">
             <h2 className='footer__logo'>Home</h2>
             <Logo themeColor='white'/>
             <BoxContainer className='flex-row media-column margin-elements'>
                 <div className='footer__container'>
-                    <h2 className='footer__title'>Projetos</h2>
+                    <h2 className='footer__title'>{t("projectsTitle")}</h2>
                     <FooterItem url='https://github.com/GuiPiangers/barberProject/tree/main'>
                         BarberStyle
                     </FooterItem>
@@ -21,7 +25,7 @@ export default function Footer(){
                     </FooterItem>
                 </div>
                 <div className='footer__container'>
-                    <h2 className='footer__title'>Contato</h2>
+                    <h2 className='footer__title'>{t("contactTitle")}</h2>
 
                     <FooterItem url='https://api.whatsapp.com/send/?phone=5551980351927'>
                         <FaWhatsapp size={16}/> (51) 9 8035-1927

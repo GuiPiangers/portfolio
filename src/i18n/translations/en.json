@@ -1,7 +1,22 @@
 {
     "translation": {
-        "headerAbout": "About me",
-        "headerProjects": "Projects",
-        "headerContact": "Contact"
+        "aboutTitle": "About me",
+        "projectsTitle": "Projects",
+        "contactTitle": "Contact",
+
+        "heroPresentation": "Hello! I'm",
+        "heroTitle1": "Front-End",
+        "heroTitle2": "Developer",
+
+        "textAboutP1.1": "My first contact with the programming area was through a systems development course. In which I was able to immerse myself in programming logic and learn the fundamentals of the",
+        "textAboutP1.2": "language and",
+        "textAboutP1.3": " data structures. It was at that moment that I discovered my passion for creating solutions through code.",
+        
+        "textAboutP2.1": "In 2023 I returned to programming studies, this time focusing on",
+        "textAboutP2.2": "Since then, I've dedicated myself daily to studying and improving my skills to become a complete web developer.",
+
+        "barberStyleDescription": "Complete scheduling system for barbershop. With sales page, login system, scheduling system and control panel. Created with React JS, using Firestore as database.",
+        "bitCentDescription": "Financial management project created from the Transformação Dev event. Contains Login system, income and expense registration and Landing Page." 
+
     }
 }

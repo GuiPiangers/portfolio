@@ -4,13 +4,16 @@ import guiImg from '../../../assets/img/gui-1.png'
 import Circle from './Circle/Circle'
 import HeroLink from './HeroLink/HeroLink'
 import useWindowSize from '../../../data/hooks/useWindowSize'
+import { useTranslation } from 'react-i18next'
 
 import { FaReact, FaGithub, FaLinkedin, FaFileAlt } from 'react-icons/fa'
 import { DiJavascript1 } from 'react-icons/di'
 
 export default function Hero(){
 
-    const {windowWidth} = useWindowSize()
+    const { windowWidth } = useWindowSize()
+    const { t } = useTranslation()
+    
 
     const renderCircle = ()=>{
         if(windowWidth < 500) return
@@ -58,10 +61,10 @@ export default function Hero(){
             <BoxContainer className='margin-elements'>
                 <div className='grid'>
                     <div className="hero__texts">
-                        <p className='hero__text'>Olá, eu sou <strong>Guilherme</strong></p>
+                        <p className='hero__text'>{t("heroPresentation")} <strong>Guilherme</strong></p>
                         <h1 className='hero__title'>
-                            Desenvolvedor <br/>
-                            Front-End
+                            {t("heroTitle1")} <br/>
+                            {t("heroTitle2")}
                         </h1>
                     </div>
                         <div className='hero__links-container'>
