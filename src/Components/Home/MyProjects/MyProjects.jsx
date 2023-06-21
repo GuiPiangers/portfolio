@@ -20,7 +20,7 @@ export default function MyProjects(){
                     <ProjectItem 
                         img={ProjectImg1}
                         title='BarberStyle'
-                        projectLink='https://barber-project-e7916.web.app'
+                        projectLink='https://barber-project-six.vercel.app'
                         repositoryLink='https://github.com/GuiPiangers/barberProject/tree/main'
                         description={t("barberStyleDescription")}
                         technologies={['react', 'css']}
