@@ -3,19 +3,15 @@
         "aboutTitle": "Sobre mim",
         "projectsTitle": "Projetos",
         "contactTitle": "Contato",
-
         "heroPresentation": "Olá! eu sou",
         "heroTitle1": "Desenvolvedor",
         "heroTitle2": "Front-End",
-
         "textAboutP1.1": "Meu primeiro contato com a área de programação foi através de um curso de desenvolvimento de sistemas. No qual pude mergulhar na lógica de programação e aprender os fundamentos da linguagem",
         "textAboutP1.2": "e estruturas de dados",
         "textAboutP1.3": ". Foi nesse momento que descobri minha paixão por criar soluções através do código.",
-        
         "textAboutP2.1": "No início de 2023 retornei aos estudos de programação, dessa vez focado em",
         "textAboutP2.2": "Desde então, tenho me dedicado diariamente a estudar e aprimorar minhas habilidades para me tornar um desenvolvedor web completo.",
-
         "barberStyleDescription": "Sistema de agendamento completo para barbearia. Com página de venda, sistema de login, sistema de agendamento e painel de controle. Criado com React JS, utilizando Firestore como banco de dados.",
-        "bitCentDescription": "Projeto de gestão financeira criado a partir do evento Transformação Dev. Contém sistema de Login, registro de ganhos e despesas e Landing Page."        
+        "bitCentDescription": "Projeto de gestão financeira criado a partir do evento Transformação Dev. Contém sistema de Login, registro de ganhos e despesas e Landing Page."
     }
 }
