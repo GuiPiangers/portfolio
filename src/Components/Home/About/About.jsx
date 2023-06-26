@@ -13,7 +13,7 @@ export default function About(){
             <BoxContainer className={'flex-row media-column align-center margin-elements'}>
                 <div className="about__texts">
                     <Title>{t("aboutTitle")}</Title>
-                    <p>{t("textAboutP1.1")} <strong>C#</strong> {t("textAboutP1.2")} <strong>SQL</strong>
+                    <p>{(t("textAboutP1.1"))} <strong>C#</strong> {t("textAboutP1.2")} <strong>SQL</strong>
                         {t("textAboutP1.3")}
                     </p>
                     
