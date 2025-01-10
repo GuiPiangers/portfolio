@@ -6,7 +6,8 @@ import BoxContainer from '../../Templates/BoxContainer/BoxContainer'
 import Title from '../../Usual/Title/Title'
 import ProjectItem from './ProjectItem/ProjectItem'
 import ProjectImg1 from '../../../assets/img/barberProject.png'
-import bitcentImg from '../../../assets/img/bitcent.png'
+import quiroImage from '../../../assets/img/image.png'
+import ProjectDescription from './ProjectItem/ProjectDescription'
 
 export default function MyProjects(){
 
@@ -18,22 +19,16 @@ export default function MyProjects(){
                 <Title className='title--align-center'>{t("projectsTitle")}</Title>
                 <div className='projects-container'>
                     <ProjectItem 
-                        img={ProjectImg1}
-                        title='BarberStyle'
+                        img={'https://raw.githubusercontent.com/GuiPiangers/quiro-malu-front-end/refs/heads/master/preview.png'}
+                        title={t("quiroTitle")}
                         projectLink='https://barber-project-six.vercel.app'
                         repositoryLink='https://github.com/GuiPiangers/barberProject/tree/main'
-                        description={t("barberStyleDescription")}
-                        technologies={['react', 'css']}
-                    />
-                    <ProjectItem 
-                        className='project-item--reverse'
-                        img={bitcentImg}
-                        title='BitCent'
-                        repositoryLink='https://github.com/GuiPiangers/bitcent/tree/main'
-                        projectLink='https://bitcent-eight.vercel.app'
-                        description={t("bitCentDescription")}
-                        technologies={['nextjs', 'typescript', 'tailwind']}
-                    />
+                        technologies={['typescript','nextjs', 'tailwind', 'aws', 'docker', 'nodejs', 'express', 'mysql', 'nginx' ]}
+                    >
+                        <ProjectDescription description={t("quiroDescription1")}/>
+                        <ProjectDescription description={t("quiroDescription2")}/>
+                        <ProjectDescription description={t("quiroDescription3")}/>
+                    </ProjectItem>
                 </div>
 
             </BoxContainer>

@@ -1,11 +1,14 @@
 import './ProjectItem.css'
+
 import { FaReact, FaHtml5, FaCss3Alt } from 'react-icons/fa'
-import {TbBrandNextjs} from 'react-icons/tb'
-import { SiTypescript, SiJavascript, SiTailwindcss } from 'react-icons/si'
 import Icon from '../Icon/Icon'
 import Button from '../../../Usual/Button/Button'
 
-export default function ProjectItem({img, className, title, description, projectLink, repositoryLink, technologies = []}){
+import {TbBrandNextjs} from 'react-icons/tb'
+import { SiNginx, SiMysql,SiTypescript, SiJavascript, SiTailwindcss, SiNodedotjs, SiExpress, SiDocker, SiAwsamplify } from 'react-icons/si'
+import { FaAws } from "react-icons/fa";
+
+export default function ProjectItem({children, img, className, title, projectLink, repositoryLink, technologies = []}){
 
     const technologiesIcons = {
         react: <Icon key='react' icon={<FaReact size={28}/>} name='React'/>,
@@ -14,7 +17,13 @@ export default function ProjectItem({img, className, title, description, project
         css: <Icon key='css' icon={<FaCss3Alt size={28}/>} name='CSS'/>,
         nextjs: <Icon key='next' icon={<TbBrandNextjs size={28}/>} name='Next Js'/>,
         tailwind: <Icon key='tailwind' icon={<SiTailwindcss size={28}/>} name='Tailwind CSS'/>,
-        typescript: <Icon key='typescript' icon={<SiTypescript size={28}/>} name='Typescript'/>
+        typescript: <Icon key='typescript' icon={<SiTypescript size={28}/>} name='Typescript'/>,
+        nodejs: <Icon key='nodeJs' icon={<SiNodedotjs size={28}/>} name='Node.js'/>,
+        express: <Icon key='express' icon={<SiExpress size={28}/>} name='Express'/>,
+        docker: <Icon key='docker' icon={<SiDocker size={28}/>} name='Docker'/>,
+        aws: <Icon key='aws' icon={<FaAws size={28}/>} name='AWS'/>,
+        mysql: <Icon key='mysql' icon={<SiMysql size={28}/>} name='MySQL'/>,
+        nginx: <Icon key='nginx' icon={<SiNginx size={28}/>} name='Nginx'/>,
     }
 
     const renderTechnologies = ()=>{
@@ -28,7 +37,7 @@ export default function ProjectItem({img, className, title, description, project
         
         <div className='space-elements'>
             <h3 className='project-item__title'>{title}</h3>
-            <p className='project-item__description'>{description}</p>
+            {children}
         
             <div className='technologies-container'>
                 {renderTechnologies()}

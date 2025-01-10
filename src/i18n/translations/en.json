@@ -8,7 +8,7 @@
         "heroTitle1": "Full-Stack",
         "heroTitle2": "Developer",
 
-        "textAboutP1.1": "My first contact with the programming area was through a systems development course. In which I was able to immerse myself in programming logic and learn the fundamentals of the",
+        "textAboutP1.1": "Full-stack developer specialized in creating scalable, high-impact solutions with Node.js, TypeScript and cloud infrastructure (AWS). Practical experience in projects that digitize processes, improve operational efficiency and follow Clean Code and SOLID principles.",
         
         "technologies": "Technologies",
         "technologiesLanguages": "Languages:",
@@ -22,8 +22,10 @@
         "technologiesDevops": "DevOps",
         "technologiesDevopsContent": "Docker, Nginx, AWS (EC2, S3), Git, GitHub",
 
-        "barberStyleDescription": "Complete scheduling system for barbershop. With sales page, login system, scheduling system and control panel. Created with React JS, using Firestore as database.",
-        "bitCentDescription": "Financial management project created from the Transformação Dev event. Contains Login system, income and expense registration and Landing Page." 
-
+        "quiroTitle": "Management System for Chiropractic Clinic",
+        "quiroDescription1": "I developed a management system for a chiropractic clinic, consisting of a RESTful API based on Clean Architecture and a modern interface implemented with Next.js and TailwindCSS. The system allows for patient and appointment registration and management, with secure authentication via JWT integrated with a MySQL database.",
+        "quiroDescription2": "I implemented efficient caching on both the client and server sides, along with automated testing using Jest, ensuring high performance and reliability. The deployment was carried out in a scalable and secure infrastructure using Docker, AWS EC2, Nginx, and Certbot for SSL.",
+        "quiroDescription3": "This project digitized processes that were previously performed manually, reducing research and evaluation time for patient progress by 40%, with robust features to facilitate the monitoring and management of clinical information."
+      
     }
 }

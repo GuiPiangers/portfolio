@@ -21,7 +21,9 @@
         "technologiesDevops": "DevOps",
         "technologiesDevopsContent": "Docker, Nginx, AWS (EC2, S3), Git, GitHub",
         
-        "barberStyleDescription": "Sistema de agendamento completo para barbearia. Com página de venda, sistema de login, sistema de agendamento e painel de controle. Criado com React JS, utilizando Firestore como banco de dados.",
-        "bitCentDescription": "Projeto de gestão financeira criado a partir do evento Transformação Dev. Contém sistema de Login, registro de ganhos e despesas e Landing Page."
+        "quiroTitle": "Sistema de Gestão para Clinica de Quiropraxia",
+        "quiroDescription1": "Desenvolvi um sistema de gestão para uma clínica de quiropraxia, composto por uma API RESTful baseada em Clean Architecture e uma interface moderna implementada com Next.js e TailwindCSS. O sistema permite o cadastro e gerenciamento de pacientes e agendamentos, com autenticação segura via JWT integrada a um banco de dados MySQL.",
+        "quiroDescription2": "Implementei caching eficiente no cliente e no servidor, além de testes automatizados com Jest, garantindo alta performance e confiabilidade. O deploy foi realizado em uma infraestrutura escalável e segura, utilizando Docker, AWS EC2, Nginx e Certbot para SSL.",
+        "quiroDescription3": "Esse projeto digitalizou processos antes realizados manualmente, reduzindo em 40% o tempo de pesquisa e avaliação da evolução dos pacientes, com funcionalidades robustas para facilitar o monitoramento e gerenciamento de informações clínicas."
     }
 }
