@@ -13,14 +13,18 @@ export default function About(){
             <BoxContainer className={'flex-row media-column align-center margin-elements'}>
                 <div className="about__texts">
                     <Title>{t("aboutTitle")}</Title>
-                    <p>{(t("textAboutP1.1"))} <strong>C#</strong> {t("textAboutP1.2")} <strong>SQL</strong>
-                        {t("textAboutP1.3")}
-                    </p>
-                    
-                    <p>
-                        {t("textAboutP2.1")} <strong>JavaScript</strong>. {t("textAboutP2.2")}
-                    </p>
+                    <p className="about__text">{(t("textAboutP1.1"))}</p>
+
+                    <h3>{(t("technologies"))}</h3>
+                    <div className="about__technologies">
+                        <p><strong>{(t("technologiesLanguages"))}</strong> {(t("technologiesLanguagesContent"))}</p>
+                        <p><strong>{(t("technologiesFrameworks"))}</strong> {(t("technologiesFrameworksContent"))}</p>
+                        <p><strong>{(t("technologiesDataBase"))}</strong> {(t("technologiesDataBaseContent"))}</p>
+                        <p><strong>{(t("technologiesTests"))}</strong> {(t("technologiesTestsContent"))}</p>
+                        <p><strong>{(t("technologiesDevops"))}</strong> {(t("technologiesDevopsContent"))}</p>
+                    </div>
                 </div>
+
                 <div className="about__img-container">
                     <img className="about__img" src={guiImg2} alt="Gui" />
                 </div>

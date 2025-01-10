@@ -1,12 +1,24 @@
 .about{
     background-color: #f5f5f5;
 }
+.about__texts{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.about__technologies{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 
 .about p{
-    margin-top: 16px;
     max-width: 584px;
-    text-indent: 20px;
     line-height: 20px;
+}
+.about__text{
+    text-indent: 20px;
 }
 
 .about__img-container{
