@@ -21,8 +21,8 @@ export default function MyProjects(){
                     <ProjectItem 
                         img={'https://raw.githubusercontent.com/GuiPiangers/quiro-malu-front-end/refs/heads/master/preview.png'}
                         title={t("quiroTitle")}
-                        projectLink='https://barber-project-six.vercel.app'
-                        repositoryLink='https://github.com/GuiPiangers/barberProject/tree/main'
+                        projectLink='https://quiro-malu-front-end.vercel.app'
+                        repositoryLink='https://github.com/GuiPiangers/quiro-malu-backend'
                         technologies={['typescript','nextjs', 'tailwind', 'aws', 'docker', 'nodejs', 'express', 'mysql', 'nginx' ]}
                     >
                         <ProjectDescription description={t("quiroDescription1")}/>
